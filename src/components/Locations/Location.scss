@@ -1,0 +1,31 @@
+
+.location-employee{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    margin:10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    .location{
+        flex:1;
+        .location-data{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            background-color:#b4caca;
+            border-radius: 10px;
+            border-bottom: 1px solid aqua;
+        }
+    }
+    .employee{
+        flex: 1;
+        margin-left: 30px;
+    }
+}
+
+.employe-exist{
+    text-decoration: none;
+}
+.employe-doesexist{
+    text-decoration: line-through;
+}
